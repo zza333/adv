@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chatset="utf-8">
+    </head>
+    <style>
+        .log
+        {
+            overflow:hidden;
+            height:200px;width:800px;
+            
+            border-style:double;
+            border-radius:5px;
+            padding:5px 10px 5px;
+            margin:15px 20px 15px;
+            font-family:"Courier New", Courier, monospace;
+
+        }
+        .dmap
+        {            
+            width:110px;
+            line-height:20px;
+            border-style:double;
+            border-radius:5px;
+            font-family:"Courier New", Courier, monospace;
+            font-size:20px;
+        }
+        .butt
+        {
+            height:50px;
+            width:200px;
+            border:1px solid;
+            border-radius:4px;
+            background-color:white;
+            -webkit-transition-duration: 0.2s; /* Safari */
+            transition-duration: 0.2s;
+        }
+        .butt:hover
+        {
+            background-color: #afafaf;
+        }
+        .bagbutt
+        {
+            height:20px;
+            width:400px;
+            border:none;
+            text-align:left;
+            background-color:white;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            font-family:"Courier New", Courier, monospace;
+        }
+        .bagbutt:hover
+        {
+            background-color: #afafaf;
+        }
+        .info
+        {
+            height:40px;
+            width:400px;
+            border:none;
+            text-align:left;
+            background-color:white;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            font-family:"Courier New", Courier, monospace;
+        }
+    </style>
+    <body>
+        <div class="log" id="id_0"></div>
+        <div id="id_info"class="info">
+
+        </div>
+        <div id="id_but">
+            <button class="butt" onclick="butClick(1)" id="id_but1"></button>
+            <button class="butt" onclick="butClick(2)" id="id_but2"></button>
+            <br/>
+            <button class="butt" onclick="butClick(3)" id="id_but3"></button>
+            <button class="butt" onclick="butClick(4)" id="id_but4"></button>
+            <br/>
+            <button class="butt" onclick="butClick(5)" id="id_but5"></button>
+            <button class="butt" onclick="butClick(6)" id="id_but6"></button>
+            <br/>
+        </div>
+        <div id="id_bag">
+            
+        </div>
+        <div id="id_map" class="dmap">
+
+        </div>
+    </body>
+    <script src="alitm.js" charset="utf-8"></script>
+    <script src="alstr.js" charset="utf-8"></script>
+    <script src="almsg.js" charset="utf-8"></script>
+    <script src="many1.js" charset="utf-8"></script>
+</html>
