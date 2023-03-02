@@ -266,7 +266,7 @@ function Init() {
     InitMap();
 
     for (let i = 1; i <= itmNum; i++)Player.bag[i] = 0;
-    Player.maxHP = Player.HP = 100;
+    Player.maxHP = Player.HP = 10;
     Player.LVL = 1;
     Player.allatk = Player.atk = 3, Player.alldef = Player.def = 0;
     for (let i = 1; i <= statusNum; i++) Player.sta[i] = 0;
@@ -275,10 +275,10 @@ function Init() {
     entity_bag.setAttribute("hidden", true);
     entity_map.setAttribute("hidden", true);
     //add
-    Player.bag[12] = 5;
-    Player.bag[5] = 10;
-    GetItem(2, -1), GetItem(3, -1), GetItem(4, -1);
-    Player.mag[1] = 1, Player.mag[2] = 2;
+    // Player.bag[12] = 5;
+    // Player.bag[5] = 10;
+    // GetItem(2, -1), GetItem(3, -1), GetItem(4, -1);
+    // Player.mag[1] = 1, Player.mag[2] = 2;
 }
 Init();
 
