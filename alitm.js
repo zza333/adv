@@ -44,3 +44,7 @@ sing_itm[4] = {
     itmval: 1,
     itmty2:2
 };
+magname = new Array;
+magname[0] = "nbsp;";
+magname[1] = "生命回复";
+magname[2] = "火球";
