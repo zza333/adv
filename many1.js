@@ -160,6 +160,7 @@ let Player = {
             butFunc = [0];
             butStr = ["", "&nbsp;", "&nbsp;", "&nbsp;", "&nbsp;", "&nbsp;", "&nbsp;"];
             for (let i = 1; i <= butNum; i++)entity_but[i].innerHTML = butStr[i];
+            if (nowEnemy.enemyName == almon[1].enemyName) dispMessage(msg[78]);
             return true;
         } else return false;
     }
@@ -1104,6 +1105,7 @@ let E_camo1 = {
         E_camo1.c1_1();
     }
 }
+dispMessage(msg[77]);
 Walking.starting();
 //for (let i = 1; i <= 20;i++)entity_0.innerHTML= (i+"<br/>")+entity_0.innerHTML;
 
